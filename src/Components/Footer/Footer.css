@@ -1,0 +1,26 @@
+footer{
+    background-color: rgb(7, 7, 7);
+    height:270px;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    font-size: 1.3rem;
+}
+
+.social-media-logo{
+    display: flex;
+    justify-content: center;
+    gap:6px;
+}
+
+.social-media-logo img{
+    width:25px;
+    height:25px;
+}
+
+.social-media-logo img:hover{
+    opacity: 0.8;
+}
