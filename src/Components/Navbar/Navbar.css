@@ -3,17 +3,52 @@ navbar{
     justify-content:space-between;
 }
 
-.list{
+.navbar-list{
     display:flex;
     list-style:none;
 }
-.list li, p{
-    margin: 10px 20px;
+.navbar-list li, #book-button{
+    padding: 10px 22px;
     font-size: 1.1rem;
 }
-/*#f44336*/
-.list li a{
-    text-decoration:none;
-    color:gray;
+
+.navbar-list li:hover{
+    background-color:rgb(242, 242, 242);
+    cursor:pointer;
 }
+
+.navbar-list li a{
+    text-decoration:none;
+    color:rgb(108, 108, 108);
+}
+
+#logo{
+    background-color: #f44336;
+    color:white;
+    display: flex;
+    align-items: center;
+    gap:10px;
+    
+}
+
+#logo:hover{
+    background-color: rgb(187, 187, 187);
+    color:black;
+}
+#logo img{
+    filter: invert();
+    width:20px;
+}
+
+#book-button{
+    border:none;
+    background-color:rgb(242, 242, 242);
+}
+
+#book-button:hover{
+    background-color:rgb(206, 206, 206);
+    cursor:pointer;
+}
+
+
 
