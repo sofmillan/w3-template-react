@@ -1,0 +1,62 @@
+.contact{
+    padding: 2.5rem 1rem 1.5rem;
+}
+
+.contact h2{
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.contact p{
+    margin: 1.5rem 0;
+}
+
+.contact .contact-list{
+    list-style: none;
+}
+
+.contact .contact-list li{
+    display:flex;
+    margin-bottom:0.4rem;
+    align-items: center;
+    gap:20px;
+}
+
+.contact .contact-list li img{
+    width:13px;
+    height:17px;
+}
+
+
+
+.contact .contact-form{
+    display:flex;
+    flex-direction: column;
+}
+
+.contact .contact-form .contact-input{
+    margin: 0.5rem 0;
+    height: 3.3rem;
+    font-size:1rem;
+    padding:0.5rem;
+    border:none;
+    border:1px solid rgb(175, 175, 175);
+}
+
+.contact .contact-form #contact-button{
+    margin: 0.5rem 0;
+    height: 3.2rem;
+    font-size:1rem;
+    padding:0.5rem;
+    width: 170px;
+    background-color: black;
+    color:white;
+}
+
+
+.contact .contact-form #contact-button:hover{
+  cursor:pointer;
+  color:black;
+  background-color:rgb(172, 172, 172);
+  border:none;
+}
