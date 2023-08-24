@@ -1,0 +1,19 @@
+navbar{
+    display:flex;
+    justify-content:space-between;
+}
+
+.list{
+    display:flex;
+    list-style:none;
+}
+.list li, p{
+    margin: 10px 20px;
+    font-size: 1.1rem;
+}
+/*#f44336*/
+.list li a{
+    text-decoration:none;
+    color:gray;
+}
+
