@@ -1,6 +1,7 @@
 
 import './App.css'
 import Navbar from './Components/Navbar/Navbar'
+import Room from './Components/Room/Room'
 import Footer from './Components/Footer/Footer'
 import Contact from './Components/Contact/Contact'
 import About from './Components/About/About'
@@ -9,8 +10,9 @@ function App() {
   return (
     <>
       <Navbar></Navbar>
-      <Subscription></Subscription>
+      <Room></Room>
       <About></About>
+      <Subscription></Subscription>
       <Contact></Contact>
       <Footer></Footer>
     </>
