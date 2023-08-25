@@ -1,6 +1,65 @@
 .banner{
-    height:90vh;
+    height:100vh;
     background-image: url('https://www.w3schools.com/w3images/hotel.jpg');
     background-size: cover;
+    position:relative;
 }
 
+.banner .container {
+    position:absolute;
+    top:20%;
+    left:5%;
+    width:50%;
+}
+
+.banner .container h1{
+    background-color: red;
+    color:white;
+    font-weight:400;
+    padding:1rem;
+    font-size:2rem;
+}
+
+.banner .container form{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding:1rem;
+    background-color:white;
+}
+
+.banner .container form div{
+    display:flex;
+    flex-direction:column;
+}
+.banner .container form input{
+    height:2.5rem;
+    width:210px;
+    border:none;
+    font-size:1rem;
+    padding:0.5rem;
+    border: 1px solid rgb(215, 215, 215);
+    margin: 1rem 0;
+}
+
+
+@media(max-width:968px){
+    .banner .container {
+        position:absolute;
+        top:20%;
+        left:5%;
+        width:80%;
+    }
+
+    .banner{
+        height:45rem;
+    }
+    .banner .container form div{
+        width: 100%;
+    }
+
+    .banner .container form input{
+        width: 100%;
+    }
+  
+}

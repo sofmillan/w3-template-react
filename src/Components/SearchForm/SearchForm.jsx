@@ -1,5 +1,3 @@
-import './Banner.css'
-
 function SearchForm() {
   return (
     <>
