@@ -1,12 +1,68 @@
-.room-cards-container{
-    display:flex;
+.room{
+    padding: 2.5rem 1rem 1.5rem;
+}
+.room h2{
+    font-size: 2rem;
+    font-weight: 300;
 }
 
+.room p{
+    font-size: 1.1rem;
+    font-weight: 300;
+    margin:1rem 0;
+}
+
+.room-form{
+    display: flex;
+    margin-bottom:1.5rem;
+    justify-content: space-between;
+    gap:0.5rem;
+    flex-wrap: wrap;
+}
+
+.room-form div{
+    display: flex;
+    flex-direction: column;
+    gap:0.5rem;
+    width: auto;
+    margin: 0.5rem 0;
+}
+
+.room-form div input{
+    width:210px;
+    min-width: 150px;
+    height:2.8rem;
+    padding: 0.5rem;
+    border:none;
+    font-size: 1rem;
+    border: 1px solid rgb(185, 185, 185);
+}
+
+#room-submit{
+    background-color:black;
+    color:white;
+}
+
+#room-submit:hover{
+    cursor:pointer;
+    background-color:rgb(218, 218, 218);
+    color:black;
+}
+
+
+
+.room-cards-container{
+    display:flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
 .room-card{
-    width:310px;
+    width:390px;
     background-color: white;
     font-weight: 300;
-    
+    margin: 1rem 0;
 }
 
 .room-card img{
@@ -44,4 +100,14 @@
     background-color: rgb(167, 167, 167);
     color:black;
     cursor:pointer;
+}
+
+@media (max-width: 600px){
+    .room-form div{
+        width:100%;
+    }
+
+    .room-form div input{
+        width:100%;
+    }
 }
