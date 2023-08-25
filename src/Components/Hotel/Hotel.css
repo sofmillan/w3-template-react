@@ -43,19 +43,20 @@
     background-image: url('https://www.w3schools.com/w3images/paris.jpg');
     background-size: cover;
 }
-
+ 
 @media(max-width:868px){
     .img-container{
-        display: none;
-        display: grid;
-        place-items: center;
-        grid-template-columns: 80%;
-        grid-template-rows: repeat(5, 240px);
-        grid-template-areas: 
-        "cinque-terre"
-        "new-york"
-        "san-francisco"
-        "pisa"
-        "paris";
+        display:none;
+        display: block;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
-}
+
+    .img-container div{
+        width:90%;
+        height:450px
+    }
+} 
