@@ -1,4 +1,7 @@
+import SearchForm from '../SearchForm/SearchForm'
 import  './Room.css'
+
+
 function Room() {
   const rooms = [
     {
@@ -28,38 +31,8 @@ function Room() {
     <>
     <section className="room">
         <h2>Rooms</h2>
-        <p>Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.</p>
-
-        <form className="room-form">
-        <div>
-        <label>Check In</label>
-        <input type="text" placeholder="DD MM YYYY"></input>
-        </div>
-
-        <div>
-        <label>Check Out</label>
-        <input type="text" placeholder="DD MM YYYY"></input>
-        </div>
-
-        <div>
-        <label>Adults</label>
-        <input type="number" placeholder="1"></input>
-        </div>
-
-        <div>
-        <label>Kids</label>
-        <input type="number" placeholder="0"></input>
-        </div>
-
-        <div>
-        <label>Search</label>
-        <input type="submit" id="room-submit" value="Search"></input>
-        </div>
-
-        
-          
-        </form>
-
+        <p>Make yourself at home is our slogan. We offer the best beds in the industry. Sleep well and rest well.</p> 
+        <SearchForm></SearchForm>
         <div className="room-cards-container">
         {rooms.map((room) => {
             return (

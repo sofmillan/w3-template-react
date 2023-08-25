@@ -1,0 +1,61 @@
+.hotel{
+    padding: 2.5rem 1rem 1.5rem;
+}
+
+.img-container{
+    padding:2rem;
+    display: grid;
+    gap:20px;
+    grid-template-columns: 24% 24% 24% 24%;
+    grid-template-rows: 230px 230px;
+    grid-template-areas: 
+        "cinque-terre cinque-terre new-york san-francisco"
+        "cinque-terre cinque-terre pisa paris";
+}
+
+#cinque-terre{
+    grid-area: cinque-terre;
+   background-size: cover;
+    background-image: url('https://www.w3schools.com/w3images/cinqueterre.jpg');
+}
+
+#new-york{
+    grid-area: new-york;
+    background-image: url('https://www.w3schools.com/w3images/newyork2.jpg');
+    background-size: cover;
+
+}
+
+#san-francisco{
+    grid-area: san-francisco;
+    background-image: url('https://www.w3schools.com/w3images/sanfran.jpg');
+    background-size: cover;
+}
+
+#pisa{
+    grid-area: pisa;
+    background-image: url('https://www.w3schools.com/w3images/pisa.jpg');
+    background-size: cover;
+}
+
+#paris{
+    grid-area: paris;
+    background-image: url('https://www.w3schools.com/w3images/paris.jpg');
+    background-size: cover;
+}
+
+@media(max-width:868px){
+    .img-container{
+        display: none;
+        display: grid;
+        place-items: center;
+        grid-template-columns: 80%;
+        grid-template-rows: repeat(5, 240px);
+        grid-template-areas: 
+        "cinque-terre"
+        "new-york"
+        "san-francisco"
+        "pisa"
+        "paris";
+    }
+}

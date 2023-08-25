@@ -12,7 +12,7 @@
     margin:1rem 0;
 }
 
-.room-form{
+.room .room-form{
     display: flex;
     margin-bottom:1.5rem;
     justify-content: space-between;
@@ -20,7 +20,7 @@
     flex-wrap: wrap;
 }
 
-.room-form div{
+.room .room-form div{
     display: flex;
     flex-direction: column;
     gap:0.5rem;
@@ -28,7 +28,7 @@
     margin: 0.5rem 0;
 }
 
-.room-form div input{
+.room .room-form div input{
     width:210px;
     min-width: 150px;
     height:2.8rem;
@@ -102,12 +102,12 @@
     cursor:pointer;
 }
 
-@media (max-width: 600px){
-    .room-form div{
+@media (max-width: 750px){
+    .room .room-form div{
         width:100%;
     }
 
-    .room-form div input{
+    .room .room-form div input{
         width:100%;
     }
 }
