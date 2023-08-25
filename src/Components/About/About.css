@@ -68,3 +68,18 @@
     height:25px;
     background-color: #ec3e3e;
 }
+
+@media (max-width: 950px) {
+    .about .container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about .container .about-info{
+        width:100%;
+     }
+    
+    .about .container .about-img{
+        width:100%;
+    }
+}
