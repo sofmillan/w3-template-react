@@ -1,0 +1,15 @@
+.tourist-plans{
+    padding: 2.5rem 1rem 1.5rem;
+}
+
+.tourist-plans h3{
+    font-size:2rem;
+    margin-bottom: 1rem;
+    text-align:center;
+}
+
+.tourist-plans img{
+    height:50vh;
+    display: block;
+    margin: 0 auto;
+}
